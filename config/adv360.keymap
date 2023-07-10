@@ -54,16 +54,16 @@
  &kp EQUAL     AS(N1)    AS(N2)    AS(N3)     AS(N4)  AS(N5)              &tog 1                                                                 &mo 3  AS(N6)  AS(N7)     AS(N8)    AS(N9)    AS(N0)  AS(MINUS)
    &kp TAB      AS(Q)     AS(W)     AS(E)      AS(R)   AS(T)               &none                                                                 &none   AS(Y)   AS(U)      AS(I)     AS(O)     AS(P)   &kp BSLH
    &kp ESC      AS(A)     AS(S)     AS(D)      AS(F)   AS(G)               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   AS(H)   AS(J)      AS(K)     AS(L)  AS(SEMI)    AS(SQT)
- &kp LSHFT      AS(Z)     AS(X)     AS(C)      AS(V)   AS(B)                                 &kp HOME                  &kp PG_UP                         AS(N)   AS(M)  AS(COMMA)   AS(DOT)  AS(FSLH)  &kp RSHFT
-     &mo 2  AS(GRAVE)  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &as LCTRL SPACE          &kp UP   &kp DOWN  AS(LBKT)  AS(RBKT)      &mo 2
+ &kp LCTRL      AS(Z)     AS(X)     AS(C)      AS(V)   AS(B)                                 &kp HOME                  &kp PG_UP                         AS(N)   AS(M)  AS(COMMA)   AS(DOT)  AS(FSLH)  &kp RSHFT
+     &mo 2  AS(GRAVE)  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &as LCTRL ENTER  &lt LOWER SPACE          &kp UP   &kp DOWN  AS(LBKT)  AS(RBKT)      &mo 2
             >;
         };
 
         layer_keypad {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                 &none   &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
+   &kp TAB      &kp Q     &kp W     ENTER      &kp R     TAB               &none                                                                 &none   &kp Y   RA(U)     &kp KP_N8      RA(O)     &kp KP_MINUS   &kp BSLH
+   &kp ESC      &as LS(RA(A)) RA(A)     RA(S)    DELETE      &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
      &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 2
             >;
